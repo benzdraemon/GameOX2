@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             {
                 TextView winnerText = findViewById(R.id.winnerText);
                 LinearLayout playAgainLayout = findViewById(R.id.playAgainLayout);
-                winnerText.setText("Draw Please try again" );
+                winnerText.setText("Draw Please try again!!!" );
                 playAgainLayout.setVisibility(View.VISIBLE);
             }
         }
